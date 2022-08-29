@@ -1,7 +1,7 @@
 import React from "react";
 
-const Circle = () => {
-  return <div className="circle">0</div>;
+const Circle = ({ count }) => {
+  return <div className="circle">{count}</div>;
 };
 
 export default Circle;
